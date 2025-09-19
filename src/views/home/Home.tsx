@@ -12,7 +12,7 @@ export const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../../assets/chef.jpg')}
+        source={require('../../../assets/veterinario.jpg')}
         style={styles.imageBackground}
       />
       <View style={styles.logoContainer}>
@@ -20,7 +20,7 @@ export const HomeScreen = () => {
           source={require('../../../assets/logo.png')}
           style={styles.logoImage}
         />
-        <Text style={styles.logoText}>FOOD APP</Text>
+        <Text style={styles.logoText}>REGIPETS</Text>
       </View>
       <View style={styles.form}>
         <Text style={styles.formText}>INGRESAR</Text>
